@@ -1,0 +1,2 @@
+Hello, this is my robot voice! I wrote this program after I lost my voice while incredibly ill back in winter 2022.
+Its purpose was to communicate with my partner at home without just texting, but it ended up being a fun little experiment.

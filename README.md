@@ -1,29 +1,23 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This is something I made when I was super sick and lost my voice. Because I was deathly ill, I apparently didn't make a repo for it, but I'm adding it after the fact to share with others! 
 
-### How do I get set up? ###
+Once setup, usage is as simple as updating a file (`speech.txt`) and running the program (`python main.py`) again.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Quick Start ###
 
-### Contribution guidelines ###
+* Install Python
+* Optional: set up virtual environment
+  * Create virtual environment (`python -m venv venv`)
+  * Activate virtual environment (`source ./venv/bin/activate`)
+  * See [here](https://python.land/virtual-environments/virtualenv) for beginner-friendly explanation and [here](https://docs.python.org/3/library/venv.html) for reference.
+* `pip install pyttsx3`
+* Change speech.txt to whatever you want!
+* `python main.py`
 
-* Writing tests
-* Code review
-* Other guidelines
+### Voice Selection ###
+The `VOICE_INDEX` variable defined in `main.py` indicates which voice to use. You can hear other voices by passing in a different voice index. `main` also has `find_voices`, which lets you try different text with different language bases to hear different choices. 
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Note that if you want to dive into more detail, the function `find_voices` in `helper.py` can go through all voices available. You can use that to identify the voice you want as your own and change the `VOICE_INDEX`.
