@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-This is something I made when I was super sick and lost my voice. Because I was deathly ill, I apparently didn't make a repo for it, but I'm adding it after the fact to share with others! 
+This is something I made when I was super sick and lost my voice. 
 
 Once setup, usage is as simple as updating a file (`speech.txt`) and running the program (`python main.py`) again.
 
